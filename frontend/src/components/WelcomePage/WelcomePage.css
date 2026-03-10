@@ -1,0 +1,31 @@
+.welcome-text-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+
+  background: rgba(242, 241, 241, 0.778); /* darker transparent container */
+  padding: 30px 50px;
+  border-radius: 15px;
+
+  box-shadow: 0 0 25px rgba(128, 0, 128, 0.7); /* purple glow */
+  backdrop-filter: blur(6px); /* subtle glass effect */
+}
+
+.welcome-text {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
+  color: #121111; /* white text for contrast */
+  margin: 0;
+}
+
+.welcome-subtext {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #090909; /* lighter grey for softer contrast */
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}

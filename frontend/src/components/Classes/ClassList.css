@@ -1,0 +1,153 @@
+.class-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f7f9fc;
+}
+
+.class-title {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.class-search-container {
+  margin-bottom: 15px;
+}
+
+.class-search {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccd3db;
+  font-size: 14px;
+}
+
+.class-search:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 3px rgba(52,152,219,0.3);
+}
+
+.class-list {
+  list-style: none;
+  padding: 0;
+}
+
+.class-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 14px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #e3e7ed;
+  transition: 0.2s;
+}
+
+.class-card:hover {
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.class-info {
+  color: #34495e;
+  font-weight: 500;
+}
+
+.class-actions button {
+  margin-left: 8px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.class-update-btn {
+  background: #3498db;
+  color: white;
+}
+
+.class-update-btn:hover {
+  background: #2c80b4;
+}
+
+.class-delete-btn {
+  background: #e74c3c;
+  color: white;
+}
+
+.class-delete-btn:hover {
+  background: #c0392b;
+}
+
+.class-form-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e3e7ed;
+  max-width: 600px;
+}
+
+.class-form-title {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.class-form-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.class-form-input,
+.class-form-select {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccd3db;
+  font-size: 14px;
+  min-width: 180px;
+}
+
+.class-form-input:focus,
+.class-form-select:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 3px rgba(52,152,219,0.3);
+}
+
+.class-form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.class-form-submit {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.class-form-submit:hover {
+  background: #2c80b4;
+}
+
+.class-form-cancel {
+  background: #95a5a6;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.class-form-cancel:hover {
+  background: #7f8c8d;
+}

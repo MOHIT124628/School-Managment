@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>React App</title>
+    <style>
+      /* Fullscreen container for the LiquidEther effect */
+      .liquid-ether-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        touch-action: none;
+        z-index: 1;
+      }
+
+      /* Container for the welcome text */
+      .welcome-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .welcome-text {
+        position: relative;
+        color: black; /* text color */
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        z-index: 10; /* above LiquidEther */
+        padding: 0 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="root">
+      <div class="welcome-container">
+        <div class="liquid-ether-container" id="liquid-ether"></div>
+        <h1 class="welcome-text">Welcome to School System</h1>
+      </div>
+    </div>
+
+    <!-- React scripts will be injected here by CRA build -->
+  </body>
+</html>

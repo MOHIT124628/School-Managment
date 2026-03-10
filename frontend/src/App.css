@@ -1,0 +1,56 @@
+/* Liquid background container */
+.liquid-ether-container {
+  position: fixed; /* stays in background */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  touch-action: none;
+  z-index: -1; /* behind everything */
+}
+
+/* Welcome page content */
+.welcome-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black; /* makes text readable on liquid */
+  font-family: 'Roboto Slab', serif;
+}
+
+/* Navigation styling */
+nav {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 25px;
+  z-index: 10;
+  background: linear-gradient(90deg, #5227FF, #FF9FFC, #B19EEF);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: white; /* better readability */
+}
+
+nav a {
+  color: black; /* dark text for contrast */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #5227FF; /* matches liquid colors */
+  transform: scale(1.1);
+}
+
+/* Optional: small separator styling */
+nav span.separator {
+  color: #352f2f;
+}
